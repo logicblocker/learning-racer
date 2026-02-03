@@ -1,4 +1,4 @@
-LearningRacer-rl
+learning-racer
 ======
 
 Overview
@@ -75,8 +75,8 @@ $ sudo docker images jetbot/jetbot | grep jupyter | cut -f 8 -d ' ' | cut -f 3 -
 And Setup LearningRacer for Docker container image.
 
 ```
-$ cd ~/ && git clone https://github.com/masato-ka/airc-rl-agent.git
-$ cd airc-rl-agent/docker/jetbot && sh build.sh
+$ cd ~/ && git clone https://github.com/logicblocker/learning-racer.git
+$ cd learning-racer/docker/jetbot && sh build.sh
 $ sh enable.sh /home/jetbot
 
 # disable jetbot/jetbot container. Tag name modify for your system by JETBOT_VERSION and L4T_VERSION.
@@ -100,8 +100,8 @@ this [link](https://github.com/NVIDIA-AI-IOT/jetracer/blob/master/docs/software_
 your jetracer terminal.
 
 ```
-$ cd ~/ && git clone https://github.com/masato-ka/airc-rl-agent.git
-$ cd airc-rl-agent
+$ cd ~/ && git clone https://github.com/logicblocker/learning-racer.git
+$ cd learning-racer
 $ sh install_jetpack.sh
 ```
 
@@ -113,8 +113,8 @@ in [this](https://forums.developer.nvidia.com/t/my-jetson-nano-board-returns-fal
 * Other platform(DonkeySIM only).
 
 ```
-$ cd ~/ && git clone https://github.com/masato-ka/airc-rl-agent.git
-$ cd airc-rl-agent
+$ cd ~/ && git clone https://github.com/logicblocker/learning-racer.git
+$ cd learning-racer
 $ sudo pip3 install .\[choose platform\]
 ```
 
@@ -412,8 +412,8 @@ You can configuration to some hyper parameter using config.yml.
 
 ## LICENSE
 
-This software license under [MIT](https://github.com/masato-ka/airc-rl-agent/blob/master/LICENCE) licence.
+This software license under [MIT](https://github.com/logicblocker/learning-racer/blob/master/LICENCE) licence.
 
 ## Author
 
-[masato-ka](https://github.com/masato-ka)
+[logicblocker](https://github.com/logicblocker)
