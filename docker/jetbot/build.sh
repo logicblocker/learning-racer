@@ -17,4 +17,4 @@ sudo docker build \
     --build-arg BASE_IMAGE=$JETBOT_DOCKER_REMOTE/jetbot:jupyter-"$JETBOT_VERSION"-"$L4T_VERSION" \
     -t learning_racer:"$L4T_VERSION" \
     -f Dockerfile \
-    ../.. #learning_racer repo root as context(airc-rl-agent/docker/jetbot)
+    ../.. #learning-racer repo root as context(learning-racer/docker/jetbot)
